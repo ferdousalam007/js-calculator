@@ -32,9 +32,7 @@ function valueChange(value) {
 //02 func value change operator for global variable declare
 function operatorChange(operator) { 
     if (currentOperant === "") return;
-    if(!previousOperant){
-        
-    }
+   
     previousOperant = currentOperant;
     newoper = operator;
     
